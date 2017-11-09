@@ -27,5 +27,7 @@ String maCondition(bool etat){
 
 void affichagelcd(String Phrase){
 	monEcran.clear();
+
 	monEcran.print(Phrase);
+delay(100);
 }
